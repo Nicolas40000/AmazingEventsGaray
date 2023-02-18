@@ -1,0 +1,136 @@
+@media only screen and (max-width:576px)
+ {
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+   }
+
+
+
+.imagen-fondo{
+    height: 150px;
+    background-image: linear-gradient(to bottom,rgba(255, 255, 0, 0.373),rgba(0, 0, 255, 0.5)), url("./fondoslid.jpg");
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   padding-top: 50px;
+}
+.name-carrousel{
+    width: 150px;
+    font-size: xx-large;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    
+    
+}
+
+.carouselExample{
+    display: flex;
+    
+}
+
+.card-content{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    flex-wrap: wrap;
+    /* border: 2px solid green; */
+    margin: 5% 5% 2% 10%;
+     height: 100hv;
+ 
+}
+.card-img-top{
+    height: 50%;
+    width: 95%;
+   margin: 1% 1% 1% 4%;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   box-shadow: -10px 5px 0.5px grey;
+/* object-fit: contain; */
+}
+.card {
+    display: flex;
+    height: 400px;
+    width: 300px; 
+    box-shadow: 1px;
+    border: 2px solid red;
+   
+}
+.card-body{
+    width: 300px;
+    height: 50%;
+    text-align: center;
+    -webkit-text-size-adjust: auto ;
+    border: 2px solid blue;
+}
+.card-text{
+text-align: center;
+}
+
+.cont-boton{
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 5px 5px;
+    width: 300px;
+
+}
+.boton{
+    width: 50px;
+    margin: 0 0 0 30px;
+    border: 2px solid rgb(255, 0, 204);
+}
+.precio{
+    width: 100px;
+    border: 2px solid rgb(0, 255, 85);
+}
+input{
+	margin-left: 20px;
+}
+.form-categ{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 30;
+    justify-content: space-around;
+    align-items: center; /**/
+    row-gap: 10px;
+}
+.insearch{
+    margin-left: 0px;
+    margin-right: 100px; 
+    
+}
+
+footer{
+    /* margin: 0 20px 0 20px; */
+    /* border: 2px solid rgb(0, 0, 0); */
+    background-color:rgba(224, 216, 221); 
+}
+.navbar{
+margin-top: 50px;
+}
+
+.navbar-brand1{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+   
+  width:100%;
+   /* border: 2px solid rgb(255, 0, 204);  */
+  background-color:rgba(224, 216, 221);
+}
+.text-footer{
+    text-decoration: none;
+    margin-left: 60%;
+    margin-right: 5%;
+ background-color:rgba(224, 216, 221);  
+ text-align-last: right; 
+    /* border: 2px solid rgb(255, 0, 204);  */
+
+}
